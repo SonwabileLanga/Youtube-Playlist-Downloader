@@ -1,49 +1,54 @@
-YouTube Playlist Downloader
+# YouTube Playlist Downloader
+
 This project allows users to download entire YouTube playlists for offline listening or viewing. Choose between MP3 (audio) and MP4 (video) formats effortlessly.
 
-Features
-Download full YouTube playlists with ease.
-Supports MP3 and MP4 formats.
-Simple, user-friendly interface.
-Repository Link
-🔗 YouTube Playlist Downloader
+## Features
+- Download full YouTube playlists with ease.
+- Supports MP3 and MP4 formats.
+- Simple, user-friendly interface.
 
-Requirements
-Python 3.6 or higher.
-Required libraries: Install them using pip.
-Installation
-Clone this repository to your local machine:
-bash
-Copy code
-git clone https://github.com/SonwabileLanga/Youtube-Playlist-Downloader  
-Navigate to the project folder:
-bash
-Copy code
-cd Youtube-Playlist-Downloader  
-Install the required dependencies:
-bash
-Copy code
-pip install -r requirements.txt  
-Usage
-Run the script:
-bash
-Copy code
-python download_playlist.py  
-Input the playlist URL when prompted.
-Select your desired format: MP3 or MP4.
-The application will download the playlist and save it to your local machine.
-Example
-bash
-Copy code
-$ python download_playlist.py  
-Enter playlist URL: https://youtube.com/playlist?list=example  
-Choose format (MP3/MP4): MP3  
-Downloading...  
-Download complete! Files saved in /downloads.  
-Contributing
-Contributions are welcome! If you have ideas for improvement or find any issues, feel free to:
+## Repository Link
+🔗 [YouTube Playlist Downloader](https://github.com/SonwabileLanga/Youtube-Playlist-Downloader)
 
-Open an issue.
-Submit a pull request.
-License
-This project is licensed under the MIT License. See the LICENSE file for more details.
+## Requirements
+- **Python 3.6 or higher**
+- Required Python libraries (install via `pip`):
+  - `pytube`
+  - `ffmpeg` or any other required library
+
+## Installation
+Follow these steps to set up the project on your local machine:
+
+### 1. Clone the Repository
+Open your terminal or command prompt and run:
+```bash
+git clone https://github.com/SonwabileLanga/Youtube-Playlist-Downloader
+```
+### 2. Navigate to the Project Directory
+Move into the directory containing the cloned repository:
+
+
+```
+cd Youtube-Playlist-Downloader
+```
+3. Install Dependencies
+Install the required Python packages listed in requirements.txt:
+```
+pip install -r requirements.txt
+```
+4. Install FFmpeg (if not already installed)
+For video and audio conversion, make sure ffmpeg is installed.
+
+On Ubuntu/Debian:
+
+-`sudo apt update`
+-`sudo apt install ffmpeg`
+
+### Running the Script
+To start downloading playlists, run the script:
+
+
+```
+python download_playlist.py
+```
+
